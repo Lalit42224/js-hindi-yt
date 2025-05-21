@@ -25,9 +25,32 @@ const user = {
 // }
 // chai()
 
-  const chai = ()  =>  {
-    let username = "lalit"
-    console.log(this.username);
+  // const chai = ()  =>  {
+  //   let username = "lalit"
+  //   console.log(this.username);
     
-  }
-  chai()
+  // }
+  // chai()
+
+  /////////////////////////////////////// arrow basic syntex/////////////////////////////////////////////////////
+
+
+  //////////////////// Type-1 /////////////////////////
+
+  // const addTwo=(num1,num2) => {
+  //   return num1 + num2
+  // }
+  //  console.log(addTwo(9,1))
+
+
+  ///////////////////////////////////////////////Type ===>2/////////////////////////////
+/////////////////// This is also called implictly return //////////////////////////
+
+  // const addTwo = (num1,num2) => (num1 + num2)
+  //  console.log(addTwo(3,5))
+
+
+  //////////////////////////////////////////// how to return a objects in arrow function/////////////////////////////
+  
+  // const addTwo = (num1,num2) => ({username:"lalit"})
+  // console.log(addTwo(2,3));
